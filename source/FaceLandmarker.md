@@ -15,24 +15,24 @@
             <th>说明</th>
         </tr>
          <tr>
-            <th>data</th>
-            <th>uint8_t*</th>
-            <th>图像数据</th>
+            <td>data</td>
+            <td>uint8_t*</td>
+            <td>图像数据</td>
         </tr>
          <tr>
-            <th>width</th>
-            <th>int32_t</th>
-            <th>图像的宽度</th>
+            <td>widtd</td>
+            <td>int32_t</td>
+            <td>图像的宽度</td>
         </tr>
        <tr>
-            <th>height</th>
-            <th>int32_t</th>
-            <th>图像的高度</th>
+            <td>height</td>
+            <td>int32_t</td>
+            <td>图像的高度</td>
         </tr>
         <tr>
-            <th>channels</th>
-            <th>int32_t</th>
-            <th>图像的通道数</th>
+            <td>channels</td>
+            <td>int32_t</td>
+            <td>图像的通道数</td>
         </tr>
 </table>
 <br>
@@ -48,24 +48,24 @@
             <th>说明</th>
         </tr>
         <tr>
-            <th>x</th>
-            <th>int32_t</th>
-            <th>人脸区域左上角横坐标</th>
+            <td>x</td>
+            <td>int32_t</td>
+            <td>人脸区域左上角横坐标</td>
         </tr>
         <tr>
-            <th>y</th>
-            <th>int32_t</th>
-            <th>人脸区域左上角纵坐标</th>
+            <td>y</td>
+            <td>int32_t</td>
+            <td>人脸区域左上角纵坐标</td>
         </tr>
         <tr>
-            <th>width</th>
-            <th>int32_t</th>
-            <th>人脸区域宽度</th>
+            <td>widtd</td>
+            <td>int32_t</td>
+            <td>人脸区域宽度</td>
         </tr>
         <tr>
-            <th>height</th>
-            <th>int32_t</th>
-            <th>人脸区域高度</th>
+            <td>height</td>
+            <td>int32_t</td>
+            <td>人脸区域高度</td>
         </tr>
 </table>
 <br>
@@ -80,14 +80,14 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> x</th>
-        <th> double</th>
-        <th>人脸特征点横坐标 </th>
+        <td> x</td>
+        <td> double</td>
+        <td>人脸特征点横坐标 </td>
     </tr>
     <tr>
-        <th> y</th>
-        <th> double</th>
-        <th> 人脸特征点纵坐标</th>
+        <td> y</td>
+        <td> double</td>
+        <td> 人脸特征点纵坐标</td>
     </tr>
 </table>
 <br>
@@ -107,16 +107,16 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th>SEETA_DEVICE_AUTO </th>
-        <th>自动检测，会优先使用 GPU </th>
+        <td>SEETA_DEVICE_AUTO </td>
+        <td>自动检测，会优先使用 GPU </td>
     </tr>
     <tr>
-        <th> SEETA_DEVICE_CPU</th>
-        <th> 使用CPU计算</th>
+        <td> SEETA_DEVICE_CPU</td>
+        <td> 使用CPU计算</td>
     </tr>
     <tr>
-        <th>SEETA_DEVICE_GPU </th>
-        <th>使用GPU计算 </th>
+        <td>SEETA_DEVICE_GPU </td>
+        <td>使用GPU计算 </td>
     </tr>
 </table>
 <br>
@@ -133,22 +133,22 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> model</th>
-        <th> const char**</th>
-        <th> </th>
-        <th> 检测器模型</th>
+        <td> model</td>
+        <td> const char**</td>
+        <td> </td>
+        <td> 检测器模型</td>
     </tr>
     <tr>
-        <th> id</th>
-        <th> int</th>
-        <th> </th>
-        <th>  GPU id</th>
+        <td> id</td>
+        <td> int</td>
+        <td> </td>
+        <td>  GPU id</td>
     </tr>
     <tr>
-        <th> device</th>
-        <th> SeetaDevice</th>
-        <th> AUTO</th>
-        <th> 计算设备(CPU 或者 GPU)</th>
+        <td> device</td>
+        <td> SeetaDevice</td>
+        <td> AUTO</td>
+        <td> 计算设备(CPU 或者 GPU)</td>
     </tr>
 <table>
 <br>
@@ -166,10 +166,10 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> setting</th>
-        <th> const SeetaModelSetting&</th>
-        <th> </th>
-        <th> 检测器结构参数</th>
+        <td> setting</td>
+        <td> const SeetaModelSetting&</td>
+        <td> </td>
+        <td> 检测器结构参数</td>
     </tr>
 <table>
 <br>
@@ -189,10 +189,10 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> 返回值</th>
-        <th> int</th>
-        <th> </th>
-        <th> 模型特征点数组长度</th>
+        <td> 返回值</td>
+        <td> int</td>
+        <td> </td>
+        <td> 模型特征点数组长度</td>
     </tr>
 <table>
 <br>
@@ -210,28 +210,28 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> image</th>
-        <th> const SeetaImageData&</th>
-        <th> </th>
-        <th> 图像原始数据</th>
+        <td> image</td>
+        <td> const SeetaImageData&</td>
+        <td> </td>
+        <td> 图像原始数据</td>
     </tr>
     <tr>
-        <th> face</th>
-        <th> const SeetaRect&</th>
-        <th> </th>
-        <th>  人脸位置</th>
+        <td> face</td>
+        <td> const SeetaRect&</td>
+        <td> </td>
+        <td>  人脸位置</td>
     </tr>
     <tr>
-        <th> points</th>
-        <th> SeetaPointF*</th>
-        <th> </th>
-        <th> 获取的人脸特征点数组(需预分配好数组长度，长度为number()返回的值)</th>
+        <td> points</td>
+        <td> SeetaPointF*</td>
+        <td> </td>
+        <td> 获取的人脸特征点数组(需预分配好数组长度，长度为number()返回的值)</td>
     </tr>
     <tr>
-        <th> 返回值</th>
-        <th> void</th>
-        <th> </th>
-        <th> </th>
+        <td> 返回值</td>
+        <td> void</td>
+        <td> </td>
+        <td> </td>
     </tr>
 <table>
 <br>
@@ -249,34 +249,34 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> image</th>
-        <th> const SeetaImageData&</th>
-        <th> </th>
-        <th> 图像原始数据</th>
+        <td> image</td>
+        <td> const SeetaImageData&</td>
+        <td> </td>
+        <td> 图像原始数据</td>
     </tr>
     <tr>
-        <th> face</th>
-        <th> const SeetaRect&</th>
-        <th> </th>
-        <th>  人脸位置</th>
+        <td> face</td>
+        <td> const SeetaRect&</td>
+        <td> </td>
+        <td>  人脸位置</td>
     </tr>
     <tr>
-        <th> points</th>
-        <th> SeetaPointF*</th>
-        <th> 获取的人脸特征点数组(需预分配好数组长度，长度为number()返回的值)</th>
-        <th> </th>
+        <td> points</td>
+        <td> SeetaPointF*</td>
+        <td> 获取的人脸特征点数组(需预分配好数组长度，长度为number()返回的值)</td>
+        <td> </td>
     </tr>
     <tr>
-        <th>mask </th>
-        <th> int32_t</th>
-        <th> </th>
-        <th> 获取人脸特征点位置对应的遮挡信息数组(需预分配好数组长度，长度为number()返回的值), 其中值为1表示被遮挡，0表示未被遮挡</th>
+        <td>mask </td>
+        <td> int32_t</td>
+        <td> </td>
+        <td> 获取人脸特征点位置对应的遮挡信息数组(需预分配好数组长度，长度为number()返回的值), 其中值为1表示被遮挡，0表示未被遮挡</td>
     </tr>
     <tr>
-        <th> 返回值</th>
-        <th> void</th>
-        <th> </th>
-        <th> </th>
+        <td> 返回值</td>
+        <td> void</td>
+        <td> </td>
+        <td> </td>
     </tr>
 <table>
 <br>
@@ -293,22 +293,22 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> image</th>
-        <th> const SeetaImageData&</th>
-        <th> </th>
-        <th> 图像原始数据</th>
+        <td> image</td>
+        <td> const SeetaImageData&</td>
+        <td> </td>
+        <td> 图像原始数据</td>
     </tr>
     <tr>
-        <th> face</th>
-        <th> const SeetaRect&</th>
-        <th> </th>
-        <th>  人脸位置</th>
+        <td> face</td>
+        <td> const SeetaRect&</td>
+        <td> </td>
+        <td>  人脸位置</td>
     </tr>
     <tr>
-        <th> 返回值</th>
-        <th> std::vector<SeetaPointF> </th>
-        <th> </th>
-        <th> 获取的人脸特征点数组</th>
+        <td> 返回值</td>
+        <td> std::vector<SeetaPointF> </td>
+        <td> </td>
+        <td> 获取的人脸特征点数组</td>
     </tr>
 <table>
 <br>
@@ -325,22 +325,22 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> image</th>
-        <th> const SeetaImageData&</th>
-        <th> </th>
-        <th> 图像原始数据</th>
+        <td> image</td>
+        <td> const SeetaImageData&</td>
+        <td> </td>
+        <td> 图像原始数据</td>
     </tr>
     <tr>
-        <th> face</th>
-        <th> const SeetaRect&</th>
-        <th> </th>
-        <th>  人脸位置</th>
+        <td> face</td>
+        <td> const SeetaRect&</td>
+        <td> </td>
+        <td>  人脸位置</td>
     </tr>
     <tr>
-        <th> 返回值</th>
-        <th> std::vector<PointWithMask> </th>
-        <th> </th>
-        <th> 获取人脸特征点和是否遮挡数组</th>
+        <td> 返回值</td>
+        <td> std::vector<PointWitdMask> </td>
+        <td> </td>
+        <td> 获取人脸特征点和是否遮挡数组</td>
     </tr>
 <table>
 <br>

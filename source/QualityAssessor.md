@@ -15,24 +15,24 @@
             <th>说明</th>
         </tr>
          <tr>
-            <th>data</th>
-            <th>uint8_t*</th>
-            <th>图像数据</th>
+            <td>data</td>
+            <td>uint8_t*</td>
+            <td>图像数据</td>
         </tr>
          <tr>
-            <th>width</th>
-            <th>int32_t</th>
-            <th>图像的宽度</th>
+            <td>widtd</td>
+            <td>int32_t</td>
+            <td>图像的宽度</td>
         </tr>
        <tr>
-            <th>height</th>
-            <th>int32_t</th>
-            <th>图像的高度</th>
+            <td>height</td>
+            <td>int32_t</td>
+            <td>图像的高度</td>
         </tr>
         <tr>
-            <th>channels</th>
-            <th>int32_t</th>
-            <th>图像的通道数</th>
+            <td>channels</td>
+            <td>int32_t</td>
+            <td>图像的通道数</td>
         </tr>
 </table>
 <br>
@@ -48,24 +48,24 @@
             <th>说明</th>
         </tr>
         <tr>
-            <th>x</th>
-            <th>int32_t</th>
-            <th>人脸区域左上角横坐标</th>
+            <td>x</td>
+            <td>int32_t</td>
+            <td>人脸区域左上角横坐标</td>
         </tr>
         <tr>
-            <th>y</th>
-            <th>int32_t</th>
-            <th>人脸区域左上角纵坐标</th>
+            <td>y</td>
+            <td>int32_t</td>
+            <td>人脸区域左上角纵坐标</td>
         </tr>
         <tr>
-            <th>width</th>
-            <th>int32_t</th>
-            <th>人脸区域宽度</th>
+            <td>widtd</td>
+            <td>int32_t</td>
+            <td>人脸区域宽度</td>
         </tr>
         <tr>
-            <th>height</th>
-            <th>int32_t</th>
-            <th>人脸区域高度</th>
+            <td>height</td>
+            <td>int32_t</td>
+            <td>人脸区域高度</td>
         </tr>
 </table>
 <br>
@@ -80,14 +80,14 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> x</th>
-        <th> double</th>
-        <th>人脸特征点横坐标 </th>
+        <td> x</td>
+        <td> double</td>
+        <td>人脸特征点横坐标 </td>
     </tr>
     <tr>
-        <th> y</th>
-        <th> double</th>
-        <th> 人脸特征点纵坐标</th>
+        <td> y</td>
+        <td> double</td>
+        <td> 人脸特征点纵坐标</td>
     </tr>
 </table>
 <br>
@@ -102,19 +102,19 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> LOW</th>
-        <th> </th>
-        <th> 表示人脸质量为低</th>
+        <td> LOW</td>
+        <td> </td>
+        <td> 表示人脸质量为低</td>
     </tr>
     <tr>
-        <th> MEDIAUM</th>
-        <th> </th>
-        <th> 表示人脸质量为中</th>
+        <td> MEDIAUM</td>
+        <td> </td>
+        <td> 表示人脸质量为中</td>
     </tr>
     <tr>
-        <th> HIGH</th>
-        <th> </th>
-        <th> 表示人脸质量为高</th>
+        <td> HIGH</td>
+        <td> </td>
+        <td> 表示人脸质量为高</td>
     </tr>
 </table>
 <br>
@@ -129,14 +129,14 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> level</th>
-        <th> QualityLevel</th>
-        <th> 人脸质量等级</th>
+        <td> level</td>
+        <td> QualityLevel</td>
+        <td> 人脸质量等级</td>
     </tr>
     <tr>
-        <th> score</th>
-        <th> float</th>
-        <th> 人脸质量分数</th>
+        <td> score</td>
+        <td> float</td>
+        <td> 人脸质量分数</td>
     </tr>
 </table>
 <br>
@@ -163,28 +163,28 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> v0</th>
-        <th> float</th>
-        <th> </th>
-        <th> 分级参数一</th>
+        <td> v0</td>
+        <td> float</td>
+        <td> </td>
+        <td> 分级参数一</td>
     </tr>
     <tr>
-        <th> v1</th>
-        <th> float</th>
-        <th> </th>
-        <th>  分级参数二</th>
+        <td> v1</td>
+        <td> float</td>
+        <td> </td>
+        <td>  分级参数二</td>
     </tr>
     <tr>
-        <th> v2</th>
-        <th> float</th>
-        <th> </th>
-        <th> 分级参数三</th>
+        <td> v2</td>
+        <td> float</td>
+        <td> </td>
+        <td> 分级参数三</td>
     </tr>
     <tr>
-        <th> v3</th>
-        <th> float</th>
-        <th> </th>
-        <th> 分级参数三</th>
+        <td> v3</td>
+        <td> float</td>
+        <td> </td>
+        <td> 分级参数三</td>
     </tr>
 <table>
 <br>
@@ -205,34 +205,34 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> image</th>
-        <th> const SeetaImageData&</th>
-        <th> </th>
-        <th> 原始图像数据</th>
+        <td> image</td>
+        <td> const SeetaImageData&</td>
+        <td> </td>
+        <td> 原始图像数据</td>
     </tr>
     <tr>
-        <th> face</th>
-        <th> const SeetaRect&</th>
-        <th> </th>
-        <th>  人脸位置</th>
+        <td> face</td>
+        <td> const SeetaRect&</td>
+        <td> </td>
+        <td>  人脸位置</td>
     </tr>
     <tr>
-        <th> points</th>
-        <th> const SeetaPointF*</th>
-        <th> </th>
-        <th> 人脸5个特征点数组</th>
+        <td> points</td>
+        <td> const SeetaPointF*</td>
+        <td> </td>
+        <td> 人脸5个特征点数组</td>
     </tr>
     <tr>
-        <th> N</th>
-        <th> const int32_t</th>
-        <th> </th>
-        <th> 人脸特征点数组长度</th>
+        <td> N</td>
+        <td> const int32_t</td>
+        <td> </td>
+        <td> 人脸特征点数组长度</td>
     </tr>
     <tr>
-        <th> 返回值</th>
-        <th> QualityResult</th>
-        <th> </th>
-        <th> 人脸亮度检测结果</th>
+        <td> 返回值</td>
+        <td> QualityResult</td>
+        <td> </td>
+        <td> 人脸亮度检测结果</td>
     </tr>
 <table>
 <br>
@@ -259,16 +259,16 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> low</th>
-        <th> float</th>
-        <th> </th>
-        <th> 分级参数一</th>
+        <td> low</td>
+        <td> float</td>
+        <td> </td>
+        <td> 分级参数一</td>
     </tr>
     <tr>
-        <th> high</th>
-        <th> float</th>
-        <th> </th>
-        <th>  分级参数二</th>
+        <td> high</td>
+        <td> float</td>
+        <td> </td>
+        <td>  分级参数二</td>
     </tr>
 <table>
 <br>
@@ -289,34 +289,34 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> image</th>
-        <th> const SeetaImageData &</th>
-        <th> </th>
-        <th>原始图像数据 </th>
+        <td> image</td>
+        <td> const SeetaImageData &</td>
+        <td> </td>
+        <td>原始图像数据 </td>
     </tr>
     <tr>
-        <th> face</th>
-        <th> const SeetaRect&</th>
-        <th> </th>
-        <th>  人脸位置</th>
+        <td> face</td>
+        <td> const SeetaRect&</td>
+        <td> </td>
+        <td>  人脸位置</td>
     </tr>
     <tr>
-        <th> points</th>
-        <th> const SeetaPointF*</th>
-        <th> </th>
-        <th> 人脸5个特征点数组</th>
+        <td> points</td>
+        <td> const SeetaPointF*</td>
+        <td> </td>
+        <td> 人脸5个特征点数组</td>
     </tr>
     <tr>
-        <th> N</th>
-        <th> const int32_t</th>
-        <th> </th>
-        <th> 人脸特征点数组长度</th>
+        <td> N</td>
+        <td> const int32_t</td>
+        <td> </td>
+        <td> 人脸特征点数组长度</td>
     </tr>
     <tr>
-        <th> 返回值</th>
-        <th> QualityResult</th>
-        <th> </th>
-        <th>人脸清晰度检测结果 </th>
+        <td> 返回值</td>
+        <td> QualityResult</td>
+        <td> </td>
+        <td>人脸清晰度检测结果 </td>
     </tr>
 <table>
 <br>
@@ -335,16 +335,16 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th>SEETA_DEVICE_AUTO</th>
-        <th>自动检测，会优先使用 GPU</th>
+        <td>SEETA_DEVICE_AUTO</td>
+        <td>自动检测，会优先使用 GPU</td>
     </tr>
     <tr>
-        <th>SEETA_DEVICE_CPU</th>
-        <th>使用CPU计算</th>
+        <td>SEETA_DEVICE_CPU</td>
+        <td>使用CPU计算</td>
     </tr>
     <tr>
-        <th>SEETA_DEVICE_GPU</th>
-        <th>使用GPU计算</th>
+        <td>SEETA_DEVICE_GPU</td>
+        <td>使用GPU计算</td>
     </tr>
 <table>
 <br>
@@ -361,22 +361,22 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th>model</th>
-        <th>const char**</th>
-        <th></th>
-        <th>检测器模型</th>
+        <td>model</td>
+        <td>const char**</td>
+        <td></td>
+        <td>检测器模型</td>
     </tr>
     <tr>
-        <th>id</th>
-        <th>int</th>
-        <th></th>
-        <th>GPU id</th>
+        <td>id</td>
+        <td>int</td>
+        <td></td>
+        <td>GPU id</td>
     </tr>
     <tr>
-        <th>device</th>
-        <th>SeetaDevice</th>
-        <th>AUTO</th>
-        <th>计算设备(CPU 或者 GPU)</th>
+        <td>device</td>
+        <td>SeetaDevice</td>
+        <td>AUTO</td>
+        <td>计算设备(CPU 或者 GPU)</td>
     </tr>
 <table>
 <br>
@@ -393,10 +393,10 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> setting</th>
-        <th> const SeetaModelSetting&</th>
-        <th> </th>
-        <th> 对象构造结构体参数</th>
+        <td> setting</td>
+        <td> const SeetaModelSetting&</td>
+        <td> </td>
+        <td> 对象构造结构体参数</td>
     </tr>
 <table>
 <br>
@@ -415,40 +415,40 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> image</th>
-        <th> const SeetaImageData&</th>
-        <th> </th>
-        <th> 原始图像数据</th>
+        <td> image</td>
+        <td> const SeetaImageData&</td>
+        <td> </td>
+        <td> 原始图像数据</td>
     </tr>
     <tr>
-        <th> points</th>
-        <th> const SeetaPointF*</th>
-        <th> </th>
-        <th> 人脸68个特征点数组 </th>
+        <td> points</td>
+        <td> const SeetaPointF*</td>
+        <td> </td>
+        <td> 人脸68个特征点数组 </td>
     </tr>
     <tr>
-        <th> light</th>
-        <th> int*</th>
-        <th> </th>
-        <th> 亮度返回结果，暂不推荐使用该返回结果</th>
+        <td> light</td>
+        <td> int*</td>
+        <td> </td>
+        <td> 亮度返回结果，暂不推荐使用该返回结果</td>
     </tr>
     <tr>
-        <th> blur</th>
-        <th> int*</th>
-        <th> </th>
-        <th> 模糊度返回结果</th>
+        <td> blur</td>
+        <td> int*</td>
+        <td> </td>
+        <td> 模糊度返回结果</td>
     </tr>
     <tr>
-        <th> noise</th>
-        <th> int*</th>
-        <th> </th>
-        <th> 是否有噪声返回结果，暂不推荐使用该返回结果</th>
+        <td> noise</td>
+        <td> int*</td>
+        <td> </td>
+        <td> 是否有噪声返回结果，暂不推荐使用该返回结果</td>
     </tr>
     <tr>
-        <th> 返回值</th>
-        <th> void</th>
-        <th> </th>
-        <th> </th>
+        <td> 返回值</td>
+        <td> void</td>
+        <td> </td>
+        <td> </td>
     </tr>
 <table>
 <br>
@@ -472,22 +472,22 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th>property </th>
-        <th>Property </th>
-        <th> </th>
-        <th> 人脸检测器属性类别</th>
+        <td>property </td>
+        <td>Property </td>
+        <td> </td>
+        <td> 人脸检测器属性类别</td>
     </tr>
     <tr>
-        <th> value</th>
-        <th> double</th>
-        <th> </th>
-        <th> 设置的属性值 </th>
+        <td> value</td>
+        <td> double</td>
+        <td> </td>
+        <td> 设置的属性值 </td>
     </tr>
     <tr>
-        <th> 返回值</th>
-        <th>void </th>
-        <th> </th>
-        <th> </th>
+        <td> 返回值</td>
+        <td>void </td>
+        <td> </td>
+        <td> </td>
     </tr>
 <table>
 <br>
@@ -504,16 +504,16 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th>property </th>
-        <th> Property</th>
-        <th> </th>
-        <th> 人脸检测器属性类别</th>
+        <td>property </td>
+        <td> Property</td>
+        <td> </td>
+        <td> 人脸检测器属性类别</td>
     </tr>
     <tr>
-        <th> 返回值</th>
-        <th>double </th>
-        <th> </th>
-        <th> 对应的人脸属性值 </th>
+        <td> 返回值</td>
+        <td>double </td>
+        <td> </td>
+        <td> 对应的人脸属性值 </td>
     </tr>
 <table>
 <br>
@@ -542,34 +542,34 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> image</th>
-        <th> const SeetaImageData&</th>
-        <th> </th>
-        <th> 原始图像数据</th>
+        <td> image</td>
+        <td> const SeetaImageData&</td>
+        <td> </td>
+        <td> 原始图像数据</td>
     </tr>
     <tr>
-        <th> face</th>
-        <th> const SeetaRect&</th>
-        <th> </th>
-        <th>  人脸位置</th>
+        <td> face</td>
+        <td> const SeetaRect&</td>
+        <td> </td>
+        <td>  人脸位置</td>
     </tr>
     <tr>
-        <th> points</th>
-        <th> const SeetaPointF*</th>
-        <th> </th>
-        <th> 人脸5个特征点数组</th>
+        <td> points</td>
+        <td> const SeetaPointF*</td>
+        <td> </td>
+        <td> 人脸5个特征点数组</td>
     </tr>
     <tr>
-        <th> N</th>
-        <th> const int32_t</th>
-        <th> </th>
-        <th>人脸特征点数组长度 </th>
+        <td> N</td>
+        <td> const int32_t</td>
+        <td> </td>
+        <td>人脸特征点数组长度 </td>
     </tr>
     <tr>
-        <th> 返回值</th>
-        <th> QualityResult</th>
-        <th> </th>
-        <th>人脸姿态检测结果 </th>
+        <td> 返回值</td>
+        <td> QualityResult</td>
+        <td> </td>
+        <td>人脸姿态检测结果 </td>
     </tr>
 <table>
 <br>
@@ -588,16 +588,16 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th>SEETA_DEVICE_AUTO</th>
-        <th>自动检测，会优先使用 GPU</th>
+        <td>SEETA_DEVICE_AUTO</td>
+        <td>自动检测，会优先使用 GPU</td>
     </tr>
     <tr>
-        <th>SEETA_DEVICE_CPU</th>
-        <th>使用CPU计算</th>
+        <td>SEETA_DEVICE_CPU</td>
+        <td>使用CPU计算</td>
     </tr>
     <tr>
-        <th>SEETA_DEVICE_GPU</th>
-        <th>使用GPU计算</th>
+        <td>SEETA_DEVICE_GPU</td>
+        <td>使用GPU计算</td>
     </tr>
 <table>
 <br>
@@ -614,22 +614,22 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th>model</th>
-        <th>const char**</th>
-        <th></th>
-        <th>检测器模型</th>
+        <td>model</td>
+        <td>const char**</td>
+        <td></td>
+        <td>检测器模型</td>
     </tr>
     <tr>
-        <th>id</th>
-        <th>int</th>
-        <th></th>
-        <th>GPU id</th>
+        <td>id</td>
+        <td>int</td>
+        <td></td>
+        <td>GPU id</td>
     </tr>
     <tr>
-        <th>device</th>
-        <th>SeetaDevice</th>
-        <th>AUTO</th>
-        <th>计算设备(CPU 或者 GPU)</th>
+        <td>device</td>
+        <td>SeetaDevice</td>
+        <td>AUTO</td>
+        <td>计算设备(CPU 或者 GPU)</td>
     </tr>
 <table>
 <br>
@@ -648,10 +648,10 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> setting</th>
-        <th> const SeetaModelSetting&</th>
-        <th> </th>
-        <th> 对象结构体参数</th>
+        <td> setting</td>
+        <td> const SeetaModelSetting&</td>
+        <td> </td>
+        <td> 对象结构体参数</td>
     </tr>
 <table>
 <br>
@@ -670,34 +670,34 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> image</th>
-        <th> const SeetaImageData&</th>
-        <th> </th>
-        <th> 原始图像数据</th>
+        <td> image</td>
+        <td> const SeetaImageData&</td>
+        <td> </td>
+        <td> 原始图像数据</td>
     </tr>
     <tr>
-        <th> face</th>
-        <th> const SeetaRect&</th>
-        <th> </th>
-        <th>  人脸位置</th>
+        <td> face</td>
+        <td> const SeetaRect&</td>
+        <td> </td>
+        <td>  人脸位置</td>
     </tr>
     <tr>
-        <th> points</th>
-        <th> const SeetaPointF*</th>
-        <th> </th>
-        <th> 人脸5个特征点数组</th>
+        <td> points</td>
+        <td> const SeetaPointF*</td>
+        <td> </td>
+        <td> 人脸5个特征点数组</td>
     </tr>
     <tr>
-        <th> N</th>
-        <th> const int32_t</th>
-        <th> </th>
-        <th> 人脸特征点数组长度</th>
+        <td> N</td>
+        <td> const int32_t</td>
+        <td> </td>
+        <td> 人脸特征点数组长度</td>
     </tr>
     <tr>
-        <th> 返回值</th>
-        <th> QualityResult</th>
-        <th> </th>
-        <th> 人脸姿态检测结果</th>
+        <td> 返回值</td>
+        <td> QualityResult</td>
+        <td> </td>
+        <td> 人脸姿态检测结果</td>
     </tr>
 <table>
 <br>
@@ -714,52 +714,52 @@
         <th>说明</th>
     </tr>
     <tr>
-        <th> image</th>
-        <th> const SeetaImageData&</th>
-        <th> </th>
-        <th> 原始图像数据</th>
+        <td> image</td>
+        <td> const SeetaImageData&</td>
+        <td> </td>
+        <td> 原始图像数据</td>
     </tr>
     <tr>
-        <th> face</th>
-        <th> const SeetaRect&</th>
-        <th> </th>
-        <th>  人脸位置</th>
+        <td> face</td>
+        <td> const SeetaRect&</td>
+        <td> </td>
+        <td>  人脸位置</td>
     </tr>
     <tr>
-        <th> points</th>
-        <th> const SeetaPointF*</th>
-        <th> </th>
-        <th> 人脸5个特征点数组</th>
+        <td> points</td>
+        <td> const SeetaPointF*</td>
+        <td> </td>
+        <td> 人脸5个特征点数组</td>
     </tr>
     <tr>
-        <th> N</th>
-        <th> const int32_t</th>
-        <th> </th>
-        <th> 人脸特征点数组长度</th>
+        <td> N</td>
+        <td> const int32_t</td>
+        <td> </td>
+        <td> 人脸特征点数组长度</td>
     </tr>
     <tr>
-        <th> yaw</th>
-        <th> float&</th>
-        <th> </th>
-        <th> yaw方向上的角度</th>
+        <td> yaw</td>
+        <td> float&</td>
+        <td> </td>
+        <td> yaw方向上的角度</td>
     </tr>
     <tr>
-        <th> pitch</th>
-        <th> float&</th>
-        <th> </th>
-        <th> pitch方向上的角度</th>
+        <td> pitch</td>
+        <td> float&</td>
+        <td> </td>
+        <td> pitch方向上的角度</td>
     </tr>
     <tr>
-        <th> roll</th>
-        <th> float&</th>
-        <th> </th>
-        <th> roll方向上的角度</th>
+        <td> roll</td>
+        <td> float&</td>
+        <td> </td>
+        <td> roll方向上的角度</td>
     </tr>
     <tr>
-        <th> 返回值</th>
-        <th> bool</th>
-        <th> </th>
-        <th> true为检测成功</th>
+        <td> 返回值</td>
+        <td> bool</td>
+        <td> </td>
+        <td> true为检测成功</td>
     </tr>
 <table>
 <br>
@@ -787,22 +787,22 @@ roll方向的分级参数二。<br>
         <th>说明</th>
     </tr>
     <tr>
-        <th>property </th>
-        <th>Property </th>
-        <th> </th>
-        <th> 人脸检测器属性类别</th>
+        <td>property </td>
+        <td>Property </td>
+        <td> </td>
+        <td> 人脸检测器属性类别</td>
     </tr>
     <tr>
-        <th> value</th>
-        <th> double</th>
-        <th> </th>
-        <th> 设置的属性值 </th>
+        <td> value</td>
+        <td> double</td>
+        <td> </td>
+        <td> 设置的属性值 </td>
     </tr>
     <tr>
-        <th> 返回值</th>
-        <th>void </th>
-        <th> </th>
-        <th> </th>
+        <td> 返回值</td>
+        <td>void </td>
+        <td> </td>
+        <td> </td>
     </tr>
 <table>
 <br>
@@ -819,16 +819,16 @@ roll方向的分级参数二。<br>
         <th>说明</th>
     </tr>
     <tr>
-        <th>property </th>
-        <th> Property</th>
-        <th> </th>
-        <th> 人脸检测器属性类别</th>
+        <td>property </td>
+        <td> Property</td>
+        <td> </td>
+        <td> 人脸检测器属性类别</td>
     </tr>
     <tr>
-        <th> 返回值</th>
-        <th>double </th>
-        <th> </th>
-        <th> 对应的人脸属性值 </th>
+        <td> 返回值</td>
+        <td>double </td>
+        <td> </td>
+        <td> 对应的人脸属性值 </td>
     </tr>
 <table>
 <br>
@@ -855,16 +855,16 @@ roll方向的分级参数二。<br>
         <th>说明</th>
     </tr>
     <tr>
-        <th> low</th>
-        <th> float</th>
-        <th> </th>
-        <th> 分级参数一</th>
+        <td> low</td>
+        <td> float</td>
+        <td> </td>
+        <td> 分级参数一</td>
     </tr>
     <tr>
-        <th> high</th>
-        <th> float</th>
-        <th> </th>
-        <th>  分级参数二</th>
+        <td> high</td>
+        <td> float</td>
+        <td> </td>
+        <td>  分级参数二</td>
     </tr>
 <table>
 <br>
@@ -883,34 +883,34 @@ roll方向的分级参数二。<br>
         <th>说明</th>
     </tr>
     <tr>
-        <th> image</th>
-        <th> const SeetaImageData&</th>
-        <th> </th>
-        <th> 原始图像数据</th>
+        <td> image</td>
+        <td> const SeetaImageData&</td>
+        <td> </td>
+        <td> 原始图像数据</td>
     </tr>
     <tr>
-        <th> face</th>
-        <th> const SeetaRect&</th>
-        <th> </th>
-        <th>  人脸位置</th>
+        <td> face</td>
+        <td> const SeetaRect&</td>
+        <td> </td>
+        <td>  人脸位置</td>
     </tr>
     <tr>
-        <th> points</th>
-        <th> const SeetaPointF*</th>
-        <th> </th>
-        <th> 人脸5个特征点数组</th>
+        <td> points</td>
+        <td> const SeetaPointF*</td>
+        <td> </td>
+        <td> 人脸5个特征点数组</td>
     </tr>
     <tr>
-        <th> N</th>
-        <th> const int32_t</th>
-        <th> </th>
-        <th> 人脸特征点数组长度</th>
+        <td> N</td>
+        <td> const int32_t</td>
+        <td> </td>
+        <td> 人脸特征点数组长度</td>
     </tr>
     <tr>
-        <th> 返回值</th>
-        <th> QualityResult</th>
-        <th> </th>
-        <th> 人脸尺寸评估结果</th>
+        <td> 返回值</td>
+        <td> QualityResult</td>
+        <td> </td>
+        <td> 人脸尺寸评估结果</td>
     </tr>
 <table>
 <br>
