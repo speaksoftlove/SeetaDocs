@@ -10,10 +10,10 @@ Welcome to Seeta's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   FaceDetector
-   FaceLandmarker
-   FaceRecognizer
-   FaceTracker
-   QualityAssessor
-   SeetaNirFaceAntiSpoofing
+   SdkApiDocs/FaceDetector
+   SdkApiDocs/FaceLandmarker
+   SdkApiDocs/FaceRecognizer
+   SdkApiDocsFaceTracker
+   SdkApiDocs/QualityAssessor
+   SdkApiDocs/SeetaNirFaceAntiSpoofing
 	
