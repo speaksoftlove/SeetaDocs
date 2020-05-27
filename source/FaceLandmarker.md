@@ -263,8 +263,8 @@
     <tr>
         <td> points</td>
         <td> SeetaPointF*</td>
-        <td> 获取的人脸特征点数组(需预分配好数组长度，长度为number()返回的值)</td>
         <td> </td>
+        <td> 获取的人脸特征点数组(需预分配好数组长度，长度为number()返回的值)</td>
     </tr>
     <tr>
         <td>mask </td>
