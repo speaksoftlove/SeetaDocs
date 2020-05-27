@@ -16,4 +16,5 @@ Welcome to Seeta's documentation!
    SDKApiDocs/FaceTracker
    SDKApiDocs/QualityAssessor
    SDKApiDocs/SeetaNirFaceAntiSpoofing
+   Performance/SDKPerformace
 	
