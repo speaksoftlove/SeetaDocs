@@ -18,5 +18,4 @@ Welcome to Seeta's documentation!
    SDKApiDocs/QualityAssessor
    SDKApiDocs/FaceAntiSpoofing
    SDKApiDocs/SeetaNirFaceAntiSpoofing
-   Performance/SDKPerformace
 	
