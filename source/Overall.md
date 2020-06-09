@@ -148,7 +148,7 @@
     
     FaceLandmarker FL = new FaceLandmarker(modelPath + "SeetaFaceLandmarker5.0.pts5.tsm.sta", "cpu", 0);//关键点定位对象初始化，注意对象计算使用CPU计算
     
-   SeetaNirFaceAntiSpoofing nirFas = new SeetaNirFaceAntiSpoofing(modelPath + "nirFaceAntiSpoofingGrayV1.0.4.rk3399pro.[].[].no-compile.do-quantization.asymmetric_quantized-u8.sta", device ,id);//近红外对象初始化
+    SeetaNirFaceAntiSpoofing nirFas = new SeetaNirFaceAntiSpoofing(modelPath + "nirFaceAntiSpoofingGrayV1.0.4.rk3399pro.[].[].no-compile.do-quantization.asymmetric_quantized-u8.sta", device ,id);//近红外对象初始化
     
     SeetaRect[] faces = FD.Detect(image);//检测图像中的人脸
     if(faces.length > 0)
