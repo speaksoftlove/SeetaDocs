@@ -4,7 +4,7 @@
 
 ## 使用入门
 
-请下载人脸识别批量测试Android Studio 工程，参考人脸识别批量测试工具工程以及SDK接口文档熟悉SDK的使用方法。
+请下载人脸识别批量测试工具Android Studio，参考人脸识别批量测试工具源码工程以及SDK接口文档熟悉SDK的使用方法。当然也可以参考我们的**SeetaFace入门教程**(http://leanote.com/blog/post/5e7d6cecab64412ae60016ef)来更详细的了解使用方法。
 
 ## 接口文档
 
